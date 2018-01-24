@@ -9,5 +9,6 @@ public class FibonacciTest {
     @Test
     public void fibonacciNumverTest() {
         Assert.assertEquals(FibonacciNumbers.fibonacci(1), 1);
+        Assert.assertEquals(FibonacciNumbers.fibonacci(2), 1);
     }
 }
