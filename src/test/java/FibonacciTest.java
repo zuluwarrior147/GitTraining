@@ -7,6 +7,7 @@ import org.junit.Test;
 public class FibonacciTest {
 
     @Test
-    public void testFibonacci() {
+    public void fibonacciNumverTest() {
+        Assert.assertEquals(FibonacciNumbers.fibonacci(1), 1);
     }
 }
